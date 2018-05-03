@@ -1,0 +1,11 @@
+.yo-rc.json
+build/
+buildbot_fri_dashboard/
+buildbot_fri_dashboard.egg-info/
+deploy_dashboard.sh
+dist/
+libs/
+node_modules/
+scripts/
+yarn.lock
+*.swp

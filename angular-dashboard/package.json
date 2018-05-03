@@ -1,0 +1,19 @@
+{
+  "name": "angular-dashboard",
+  "version": "0.0.0",
+  "description": "Angular Dashboard",
+  "homepage": "",
+  "author": {
+    "name": "Gabriel Nagy",
+    "email": "gabriel.nagy@nokia.com",
+    "url": ""
+  },
+  "keywords": [],
+  "dependencies": {
+    "buildbot-data": "^1.0.9",
+    "guanlecoja": "~0.8.0",
+    "gulp": "~3.9.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}

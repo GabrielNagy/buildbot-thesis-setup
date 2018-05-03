@@ -85,7 +85,10 @@ celerybeat-schedule
 # virtualenv
 .venv
 venv/
+local/
 ENV/
+include/
+share/
 
 # Spyder project settings
 .spyderproject
@@ -99,3 +102,21 @@ ENV/
 
 # mypy
 .mypy_cache/
+.yo-rc.json
+build/
+buildbot_fri_dashboard/
+buildbot_fri_dashboard.egg-info/
+deploy_dashboard.sh
+dist/
+libs/
+node_modules/
+scripts/
+yarn.lock
+*.swp
+worker/
+state.sqlite
+bin/
+gitpoller-workdir/
+twistd.pid
+pip-selfcheck.json
+buildbot.tac
