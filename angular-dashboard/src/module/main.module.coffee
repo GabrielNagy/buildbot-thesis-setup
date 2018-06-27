@@ -9,8 +9,8 @@ class State extends Config
     constructor: ($stateProvider, glMenuServiceProvider) ->
 
         # Name of the state
-        name = "buildbot_fri_dashboard"
-        caption = "FRI Dashboard v2.19"
+        name = "angular_dashboard"
+        caption = "Angular Dashboard v2.19"
         # Configuration
         glMenuServiceProvider.addGroup
             name: name
@@ -25,7 +25,7 @@ class State extends Config
         state =
             controller: "buildbotFriDashboardController"
             controllerAs: "d"
-            templateUrl: "buildbot_fri_dashboard/views/dashboard.html"
+            templateUrl: "angular_dashboard/views/dashboard.html"
             name: name
             url: "/#{name}"
             data: cfg

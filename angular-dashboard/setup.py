@@ -17,7 +17,7 @@ setup_www_plugin(
     author_email=u'gabriel.nagy@nokia.com',
     url='/',
     license='',
-    packages=['buildbot_fri_dashboard'],
+    packages=['angular_dashboard'],
     package_data={
         '': [
             'VERSION',
@@ -26,6 +26,6 @@ setup_www_plugin(
     },
     entry_points="""
         [buildbot.www]
-        buildbot_fri_dashboard = buildbot_fri_dashboard:ep
+        angular_dashboard = angular_dashboard:ep
     """,
 )

@@ -78069,5 +78069,3 @@ angular.mock.$RootScopeDecorator = ['$delegate', function($delegate) {
   });
 
 }).call(this);
-
-//# sourceMappingURL=tests.js.map

@@ -1,3 +1,6 @@
 [submodule "hello-world"]
 	path = hello-world
 	url = https://github.com/buildbot/hello-world.git
+[submodule "thesis-documentation"]
+	path = thesis-documentation
+	url = https://gitlab.com/gabuscus/thesis-documentation.git

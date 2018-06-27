@@ -12,7 +12,7 @@
       <th><a ng-href="#/builders/{{builder.builderid}}" class="ng-binding" href="#/builders/{{builder.builderid}}">{{builder.name}}</a></th>
       {% endfor %}
     </tr>
-    {% for ssid, data in bigdata.items()|sort(reverse=True) %}    <tr>
+    {% for ssid, data in bigdata.items()|sort(reverse=False) %}    <tr>
       <th><changedetails change="{{data.change}}"/></th>
       {% for builder in builders %}
       <th>

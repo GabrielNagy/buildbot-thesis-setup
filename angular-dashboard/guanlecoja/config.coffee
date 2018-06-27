@@ -9,8 +9,8 @@ module.exports =
     ### ###########################################################################################
     #   Name of the plugin
     ### ###########################################################################################
-    name: 'buildbot_fri_dashboard'
-    dir: build: 'buildbot_fri_dashboard/static'
+    name: 'angular_dashboard'
+    dir: build: 'angular_dashboard/static'
     bower:
         testdeps:
             # vendors.js includes jquery, angularjs, etc in the right order

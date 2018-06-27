@@ -104,7 +104,7 @@ class BuildbotFriDashboard extends Controller
 
   selectBuild: (build) ->
     modal = @$uibModal.open
-      templateUrl: "buildbot_fri_dashboard/views/modal.html"
+      templateUrl: "angular_dashboard/views/modal.html"
       controller: 'dashboardModalController as modal'
       windowClass: 'modal-big'
       resolve:
